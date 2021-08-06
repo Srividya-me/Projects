@@ -1,0 +1,58 @@
+.login{
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255,0.5),
+        rgba(255, 255, 255,0.5)
+    ),
+    url(https://www.teahub.io/photos/full/16-167936_beautiful-book-pen-images-hd.jpg);
+    background-size: cover;
+}
+
+.loginTitle{
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.loginForm{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label{
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding:10px;
+    background-color: white;
+    border:none;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor:pointer;
+    background-color: lightcoral;
+    border:none;
+    color:white;
+    border-radius: 10px;    
+    padding: 10px;
+
+}
+
+.loginRegisterButton{
+    margin-top: 20px;
+    position:absolute;
+    top:60px;
+    right:20px;
+    background-color :teal;
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+    padding:10px;
+    color:white;
+}
